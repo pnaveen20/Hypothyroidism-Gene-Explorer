@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
+import seaborn
+print("✅ Seaborn version:", seaborn.__version__)
 import matplotlib.pyplot as plt
 # Load hypothyroidism dataset
 def load_hypothyroidism_data():
