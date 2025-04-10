@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
 # Load hypothyroidism dataset
 def load_hypothyroidism_data():
     file_path = r"hypothyroidism.xlsx"  # Ensure the file is in the same directory or provide the correct path
