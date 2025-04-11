@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Load hypothyroidism dataset
 def load_hypothyroidism_data():
-    file_path = r"C:\Users\pannu\Downloads\pdd\hypothyroidism.xlsx"  # Ensure the file is in the same directory or provide the correct path
+    file_path = "hypothyroidism.xlsx"  # Ensure the file is in the same directory or provide the correct path
     data = pd.read_excel(file_path)
     return data
 
